@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E71FCC03406598C68F116B7 /* Pods_FeriaInternacional.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65CF6CA4BE48460C4E0E9D /* Pods_FeriaInternacional.framework */; };
 		85A9CF8E1DD3E63700C7BE03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9CF8D1DD3E63700C7BE03 /* AppDelegate.swift */; };
 		85A9CF901DD3E63700C7BE03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9CF8F1DD3E63700C7BE03 /* ViewController.swift */; };
 		85A9CF931DD3E63700C7BE03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A9CF911DD3E63700C7BE03 /* Main.storyboard */; };
@@ -14,6 +15,13 @@
 		85A9CF981DD3E63700C7BE03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A9CF961DD3E63700C7BE03 /* LaunchScreen.storyboard */; };
 		85A9CFA31DD3E63800C7BE03 /* FeriaInternacionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9CFA21DD3E63800C7BE03 /* FeriaInternacionalTests.swift */; };
 		85A9CFAE1DD3E63800C7BE03 /* FeriaInternacionalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9CFAD1DD3E63800C7BE03 /* FeriaInternacionalUITests.swift */; };
+		85EB834F1DD65BDD00F8EDF8 /* AppTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB834E1DD65BDD00F8EDF8 /* AppTabBarController.swift */; };
+		85EB83511DD6608D00F8EDF8 /* EventosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB83501DD6608D00F8EDF8 /* EventosViewController.swift */; };
+		85EB83531DD661FE00F8EDF8 /* ContenidoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB83521DD661FE00F8EDF8 /* ContenidoViewController.swift */; };
+		85EB83551DD667A000F8EDF8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB83541DD667A000F8EDF8 /* HomeViewController.swift */; };
+		85EB83571DD6697300F8EDF8 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB83561DD6697300F8EDF8 /* PerfilViewController.swift */; };
+		85EB83591DD66AEC00F8EDF8 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB83581DD66AEC00F8EDF8 /* AppNavigationController.swift */; };
+		85EB835B1DD66C0700F8EDF8 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB835A1DD66C0700F8EDF8 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		086CAD66286F415D9CAFE196 /* Pods-FeriaInternacional.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeriaInternacional.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeriaInternacional/Pods-FeriaInternacional.debug.xcconfig"; sourceTree = "<group>"; };
+		105E217F20B2D72C1F0B881D /* Pods-FeriaInternacional.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeriaInternacional.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeriaInternacional/Pods-FeriaInternacional.release.xcconfig"; sourceTree = "<group>"; };
+		6C65CF6CA4BE48460C4E0E9D /* Pods_FeriaInternacional.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeriaInternacional.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A9CF8A1DD3E63700C7BE03 /* FeriaInternacional.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeriaInternacional.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A9CF8D1DD3E63700C7BE03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85A9CF8F1DD3E63700C7BE03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,13 @@
 		85A9CFA91DD3E63800C7BE03 /* FeriaInternacionalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeriaInternacionalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A9CFAD1DD3E63800C7BE03 /* FeriaInternacionalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeriaInternacionalUITests.swift; sourceTree = "<group>"; };
 		85A9CFAF1DD3E63800C7BE03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85EB834E1DD65BDD00F8EDF8 /* AppTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTabBarController.swift; sourceTree = "<group>"; };
+		85EB83501DD6608D00F8EDF8 /* EventosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventosViewController.swift; sourceTree = "<group>"; };
+		85EB83521DD661FE00F8EDF8 /* ContenidoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContenidoViewController.swift; sourceTree = "<group>"; };
+		85EB83541DD667A000F8EDF8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		85EB83561DD6697300F8EDF8 /* PerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		85EB83581DD66AEC00F8EDF8 /* AppNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
+		85EB835A1DD66C0700F8EDF8 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E71FCC03406598C68F116B7 /* Pods_FeriaInternacional.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		607D53F4833E6AA63A282338 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C65CF6CA4BE48460C4E0E9D /* Pods_FeriaInternacional.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		85A9CF811DD3E63700C7BE03 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				85A9CFA11DD3E63800C7BE03 /* FeriaInternacionalTests */,
 				85A9CFAC1DD3E63800C7BE03 /* FeriaInternacionalUITests */,
 				85A9CF8B1DD3E63700C7BE03 /* Products */,
+				9BE1B005F6844BA246434674 /* Pods */,
+				607D53F4833E6AA63A282338 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +126,8 @@
 		85A9CF8C1DD3E63700C7BE03 /* FeriaInternacional */ = {
 			isa = PBXGroup;
 			children = (
+				85EB834D1DD65BA300F8EDF8 /* ViewController */,
+				85EB834C1DD658E300F8EDF8 /* Classes */,
 				85A9CF8D1DD3E63700C7BE03 /* AppDelegate.swift */,
 				85A9CF8F1DD3E63700C7BE03 /* ViewController.swift */,
 				85A9CF911DD3E63700C7BE03 /* Main.storyboard */,
@@ -125,6 +156,36 @@
 			path = FeriaInternacionalUITests;
 			sourceTree = "<group>";
 		};
+		85EB834C1DD658E300F8EDF8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		85EB834D1DD65BA300F8EDF8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				85EB834E1DD65BDD00F8EDF8 /* AppTabBarController.swift */,
+				85EB83501DD6608D00F8EDF8 /* EventosViewController.swift */,
+				85EB83521DD661FE00F8EDF8 /* ContenidoViewController.swift */,
+				85EB83541DD667A000F8EDF8 /* HomeViewController.swift */,
+				85EB83561DD6697300F8EDF8 /* PerfilViewController.swift */,
+				85EB83581DD66AEC00F8EDF8 /* AppNavigationController.swift */,
+				85EB835A1DD66C0700F8EDF8 /* NextViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		9BE1B005F6844BA246434674 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				086CAD66286F415D9CAFE196 /* Pods-FeriaInternacional.debug.xcconfig */,
+				105E217F20B2D72C1F0B881D /* Pods-FeriaInternacional.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85A9CFB21DD3E63800C7BE03 /* Build configuration list for PBXNativeTarget "FeriaInternacional" */;
 			buildPhases = (
+				CD18EAD355B4E089CA9292EF /* [CP] Check Pods Manifest.lock */,
 				85A9CF861DD3E63700C7BE03 /* Sources */,
 				85A9CF871DD3E63700C7BE03 /* Frameworks */,
 				85A9CF881DD3E63700C7BE03 /* Resources */,
+				F76DE8023B5E1193A827C68E /* [CP] Embed Pods Frameworks */,
+				8B67C451AD7FE5E5CDC4FF49 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +318,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B67C451AD7FE5E5CDC4FF49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FeriaInternacional/Pods-FeriaInternacional-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD18EAD355B4E089CA9292EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F76DE8023B5E1193A827C68E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FeriaInternacional/Pods-FeriaInternacional-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85A9CF861DD3E63700C7BE03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85EB83531DD661FE00F8EDF8 /* ContenidoViewController.swift in Sources */,
+				85EB834F1DD65BDD00F8EDF8 /* AppTabBarController.swift in Sources */,
+				85EB83511DD6608D00F8EDF8 /* EventosViewController.swift in Sources */,
 				85A9CF901DD3E63700C7BE03 /* ViewController.swift in Sources */,
 				85A9CF8E1DD3E63700C7BE03 /* AppDelegate.swift in Sources */,
+				85EB83591DD66AEC00F8EDF8 /* AppNavigationController.swift in Sources */,
+				85EB83571DD6697300F8EDF8 /* PerfilViewController.swift in Sources */,
+				85EB835B1DD66C0700F8EDF8 /* NextViewController.swift in Sources */,
+				85EB83551DD667A000F8EDF8 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +452,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -383,6 +503,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -410,7 +531,9 @@
 		};
 		85A9CFB31DD3E63800C7BE03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 086CAD66286F415D9CAFE196 /* Pods-FeriaInternacional.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FeriaInternacional/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -422,7 +545,9 @@
 		};
 		85A9CFB41DD3E63800C7BE03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 105E217F20B2D72C1F0B881D /* Pods-FeriaInternacional.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FeriaInternacional/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -505,6 +630,7 @@
 				85A9CFB41DD3E63800C7BE03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85A9CFB51DD3E63800C7BE03 /* Build configuration list for PBXNativeTarget "FeriaInternacionalTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +639,7 @@
 				85A9CFB71DD3E63800C7BE03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85A9CFB81DD3E63800C7BE03 /* Build configuration list for PBXNativeTarget "FeriaInternacionalUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +648,7 @@
 				85A9CFBA1DD3E63800C7BE03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

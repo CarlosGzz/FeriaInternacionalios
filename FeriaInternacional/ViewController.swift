@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  FeriaInternacional
 //
-//  Created by Laboratorio on 11/9/16.
+//  Created by Carlos Gonzalez & Andrea Arroyo on 11/9/16.
 //  Copyright © 2016 Laboratorio. All rights reserved.
 //
 
